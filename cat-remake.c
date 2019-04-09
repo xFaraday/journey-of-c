@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//figure out whether to use %d or %c.  %d would be using numeric data types which might
-//make it way easier to actually calculate entropy
-
 int main() {
 	FILE *fptr;
 
@@ -26,10 +23,3 @@ int main() {
 	return 0;
 	}
 }
-
-//possible method
-/*
-
-
-
-*/
